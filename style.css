@@ -2,7 +2,6 @@ body {
   padding: 0;
   font-family: "Arial", sans-serif;
   font-size: 14px;
-  line-height: 18px;
   color: #000000;
   background: #ffffff url("img/background.jpg") no-repeat 50% 0;
 }
@@ -35,7 +34,6 @@ h2 {
   color: #666666;
 }
 
-/* Добавьте правило ниже */
 
 .vip {
   border-color: #ff5a26;
@@ -43,7 +41,6 @@ h2 {
 }
 
 .container {
-  width: 480px;
   margin: 0 auto;
 }
 

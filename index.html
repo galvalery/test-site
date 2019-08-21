@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Инструктор Кекс</title>
+    <title>Песочница</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -18,6 +19,39 @@
         <p class="feature-train">Буду пока думать</p>
         <p class="feature-cat">Посмотрим что выйдет</p>
       </section>
+	   
+	  	<form name="calculator" border="1">
+		<p>Калькулятор</p>
+		<input type="textfield" name="ans" value="" style="width: 105px">
+		<table>
+			<tr>
+			<td><input type="button" value=" 1 " onClick="document.calculator.ans.value+='1'"></td>
+			<td><input type="button" value=" 2 " onClick="document.calculator.ans.value+='2'"></td>
+			<td><input type="button" value=" 3 " onClick="document.calculator.ans.value+='3'"></td>
+			</tr>
+			<tr>
+			<td><input type="button" value=" 4 " onClick="document.calculator.ans.value+='4'"></td>
+			<td><input type="button" value=" 5 " onClick="document.calculator.ans.value+='5'"></td>
+			<td><input type="button" value=" 6 " onClick="document.calculator.ans.value+='6'"></td>
+			</tr>
+			<tr>
+			<td><input type="button" value=" 7 " onClick="document.calculator.ans.value+='7'"></td>
+			<td><input type="button" value=" 8 " onClick="document.calculator.ans.value+='8'"></td>
+			<td><input type="button" value=" 9 " onClick="document.calculator.ans.value+='9'"></td>
+			</tr>
+			<tr>
+			<td><input type="button" value=" * " onClick="document.calculator.ans.value+='*'"></td>
+			<td><input type="button" value=" 0 " onClick="document.calculator.ans.value+='0'"></td>
+			<td><input type="button" value="  / " onClick="document.calculator.ans.value+='/'"></td>
+			</tr>
+			<tr>
+			<td><input type="button" value=" + " onClick="document.calculator.ans.value+='+'"></td>
+			<td><input type="button" value=" - " onClick="document.calculator.ans.value+='-'"></td>
+			<td><input type="button" value=" = " onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></td>
+			</tr>	
+        </table>
+		<input type="reset" value="Сброс">
+		</form>
 
       <footer class="site-footer">
         <p>© Валерий</p>
